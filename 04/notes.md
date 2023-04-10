@@ -1,7 +1,11 @@
-# Estrutura de dados
+#Fluxo da aplicação
 
-- Organização e gerenciamento dos dados
-- Melhor eficiência do código
+- Caminhos lógicos baseado em algum dado ou informação
 
-[] Estruturas de repetição
-[] Vetores (Arrays)
+#Boas praticas da programação
+
+- Não repetir codigo
+
+[] Tipo de dado: Boolean
+[] if/else
+[] Operadores comparativos

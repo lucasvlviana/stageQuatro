@@ -1,14 +1,27 @@
-let student = prompt("Qual o nome do(a) aluno(a)?");
-let n1 = prompt("Qual a nota da primeira prova?");
-let n2 = prompt("Qual a nota da segunda prova?");
-let n3 = prompt("Qual a nota da terceira prova?");
-let average = (Number(n1) + Number(n2) + Number(n3)) / 3;
-let result = average > 6;
-average = average.toFixed(2);
+/*
+  Capturar 2 números
+  e fazer as operações matemáticas
+  de soma, subtração, multiplicação,
+  divisão e resto da divisão.
 
-if (result) {
-    alert("Parabéns, " + student + "! Sua média foi de: " + average);
-} else {
-    alert(student + "estude para sua prova de recuperação! Sua média foi de: " + average);
-}
+  E para cada operação, mostrar um alerta
+  com o resultado.
+*/
 
+let firstNumber = prompt('Digite o primeiro número')
+let secondNumber = prompt('Digite o segundo número')
+
+firstNumber = Number(firstNumber)
+secondNumber = Number(secondNumber)
+
+const sum = firstNumber + secondNumber
+const sub = firstNumber - secondNumber
+const multi = firstNumber * secondNumber
+const div = firstNumber / secondNumber
+const restDiv = firstNumber % secondNumber
+
+alert('Soma: ' + sum)
+alert('Subtração: ' + sub)
+alert('Multiplicação: ' + multi)
+alert('Divisão: ' + div)
+alert('Resto da divisão: ' + restDiv)

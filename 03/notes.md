@@ -1,11 +1,1 @@
-#Fluxo da aplicação
-
-- Caminhos lógicos baseado em algum dado ou informação
-
-#Boas praticas da programação
-
-- Não repetir codigo
-
-[] Tipo de dado: Boolean
-[] if/else
-[] Operadores comparativos
+Nessa aula aprendemos sobre os operadores matemáticos utilizando variáveis em JavaScript e como utilizá-los capturando e exibindo os dados.
